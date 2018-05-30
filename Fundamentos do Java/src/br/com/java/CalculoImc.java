@@ -16,7 +16,7 @@ public class CalculoImc {
         System.out.println("Digite a sua altura em metros: ");
         altura = teclado.nextDouble();
         //processamento
-        imc = peso / (peso * altura);
+        imc = peso / (altura * altura);
         System.out.println("IMC: " + imc);
         		
 	}
