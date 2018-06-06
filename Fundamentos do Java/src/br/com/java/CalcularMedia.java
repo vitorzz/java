@@ -22,11 +22,14 @@ public class CalcularMedia {
 		// + contatena(junta) um texto com o conteúdo da variável média
 		System.out.println("Média final: " + media);
         // estrutura condicional para verificar o status
-		if (media <5) {
+		if (media <= 2) {
 			System.out.println("REPROVADO");
-		} else {
+		} else if  (media > 2 && media < 5){
+			System.out.println("RECUPERAÇÃO");
+		} else { 
 			System.out.println("APROVADO");
-		}
+		
+			}
 	}
 
 }
