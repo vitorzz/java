@@ -13,6 +13,7 @@ public class TabuadaWhile {
 		while (i < 11) {
 			System.out.println(valor + " x " + i + " = " + (valor * i));
 			i++;
+			
 		}
 		
 
