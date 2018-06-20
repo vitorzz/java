@@ -2,7 +2,7 @@ package br.com.java;
 
 import java.util.Scanner;
 
-public class CalcularDesconto {
+public class PDV {
 
 	public static void main(String[] args) {
 		double preço,desconto,valorRecebido,totalDesconto,troco;
